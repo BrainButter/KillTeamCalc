@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build-for-github": "ng build --deploy-url=/KillTeamCalc/dist/kill-team-calc/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
