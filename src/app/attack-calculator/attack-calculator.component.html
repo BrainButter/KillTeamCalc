@@ -1,0 +1,32 @@
+<div>
+  <h2>Attacking Weapon Stats</h2>
+  <label>Attack Characteristic</label>
+  <input type='text' [(ngModel)]="attackCharacteristic" />
+  <br>
+  <label>Balistics/Weapon Skill Characteristic</label>
+  <input type='text' [(ngModel)]="weaponSkill" />
+  <br>
+  <label>Normal Damage Characteristic</label>
+  <input type='text' [(ngModel)]="normalDamage" />
+  <br>
+  <label>Critical Damage Characteristic</label>
+  <input type='text' [(ngModel)]="criticalDamage" />
+</div>
+<div>
+  <h2>Defender Stats</h2>
+  <label>Defense Characteristic</label>
+  <input type='text' [(ngModel)]="defenseCharacteristic" />
+  <br>
+  <label>Save Characteristic</label>
+  <input type='text' [(ngModel)]="saveCharacteristic" />
+</div>
+<div>
+  <button (click)='resultCalc()'>Calculate</button>
+</div>
+<div>
+  <h2>Attack Results</h2>
+  <label>Average Damage</label>
+  <span>{{averageDamage}}</span>
+  <br>
+
+</div>
