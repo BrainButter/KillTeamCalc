@@ -18,7 +18,7 @@ import { AttackCalculatorComponent } from './attack-calculator/attack-calculator
     AppRoutingModule,
     FormsModule
   ],
-  providers: [],
+  providers: [CalcEngineService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

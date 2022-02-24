@@ -19,7 +19,7 @@ export class AttackCalculatorComponent implements OnInit {
   public averageNormalDamageBlocked: number = 0;
   public averageCriticalDamageBlocked: number = 0;
 
-  constructor() { }
+  constructor(private calcEngineService: CalcEngineService) { }
 
   ngOnInit(): void {
   }
